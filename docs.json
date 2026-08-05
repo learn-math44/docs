@@ -1,0 +1,102 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Math44 Documentation",
+  "colors": {
+    "primary": "#5d3bff",
+    "light": "#c4b1ff",
+    "dark": "#0e0027"
+  },
+  "favicon": {
+    "light": "/images/MAth44Logo.png",
+    "dark": "/images/MAth44Logo.png"
+  },
+  "navigation": {
+    "pages": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      }
+    ],
+    "tabs": [
+      {
+        "tab": "Math44",
+        "pages": [
+          {
+            "group": "Math44",
+            "pages": [
+              "index",
+              "quickstart",
+              "making-your-first-class",
+              "add-students-to-your-class",
+              {
+                "group": "Math44 Basics",
+                "pages": [
+                  "making-your-first-assignment",
+                  "how-to-make-your-own-questions",
+                  "adding-another-teacher"
+                ]
+              },
+              {
+                "group": "Extra",
+                "pages": [
+                  "how-to-claim-a-premium-code",
+                  "differences-between-math44-and-math44-for-home-schooling"
+                ]
+              }
+            ],
+            "icon": "grid-4"
+          },
+          {
+            "group": "Notepad",
+            "pages": [
+              "welcome"
+            ],
+            "icon": "notebook"
+          }
+        ],
+        "icon": "grid-4"
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/MAth44Logo.png",
+    "dark": "/images/MAth44Logo.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://app.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/Learn_Math44",
+      "github": "https://github.com/learn-math44",
+      "website": "https://math44.org"
+    }
+  },
+  "description": "The officail documentation for Math44 and it's other websites."
+}
