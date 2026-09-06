@@ -49,16 +49,24 @@
               }
             ],
             "icon": "grid-4"
-          },
-          {
-            "group": "Notepad",
-            "pages": [
-              "welcome"
-            ],
-            "icon": "notebook"
           }
         ],
         "icon": "grid-4"
+      },
+      {
+        "tab": "Bingo44"
+      },
+      {
+        "tab": "Developer",
+        "pages": [
+          "untitled-page",
+          {
+            "group": "API",
+            "pages": [
+              "untitled-page-2"
+            ]
+          }
+        ]
       }
     ]
   },
