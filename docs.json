@@ -31,6 +31,7 @@
               "index",
               "quickstart",
               "making-your-first-class",
+              "questions-v2",
               "add-students-to-your-class",
               {
                 "group": "Math44 Basics",
@@ -49,16 +50,25 @@
               }
             ],
             "icon": "grid-4"
-          },
-          {
-            "group": "Notepad",
-            "pages": [
-              "welcome"
-            ],
-            "icon": "notebook"
           }
         ],
         "icon": "grid-4"
+      },
+      {
+        "tab": "Developer",
+        "pages": [
+          "untitled-page",
+          {
+            "group": "API",
+            "pages": [
+              "untitled-page-2",
+              "untitled-page-3",
+              "untitled-page-3-2",
+              "untitled-page-3-2-2",
+              "untitled-page-3-2-2-2"
+            ]
+          }
+        ]
       }
     ]
   },

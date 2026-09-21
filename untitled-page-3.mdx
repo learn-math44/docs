@@ -1,0 +1,45 @@
+---
+title: "Fraction Generator"
+icon: "input-numeric"
+---
+
+The Math44 Fraction Generator lets you generate random fractions for your projects.
+
+It can be used for math activities, games, quizzes, testing, or anywhere else you need a random fractions.
+
+## Example Uses
+
+- Random math problems
+- Games
+- Quizzes
+- Classroom activities
+- Testing
+- Randomized exercises
+
+See the API reference for the available options and parameters.
+
+## How to Use:
+
+Send a `GET`Request to the URL Below.
+
+```json
+https://adrofi.avicenna.run/api/fraction
+```
+
+### Reference
+
+<ResponseField name="success" type="true / false" default="true">
+  Status if API worked.
+</ResponseField>
+
+<ResponseField name="status" type="numbers" default="200">
+  The status of the API.
+</ResponseField>
+
+<ResponseField name="timestamp" type="time">
+  The time that the request was sent.
+</ResponseField>
+
+<ResponseField name="fraction" type="x/x" default="N/A" required>
+  The main output/ random fraction.
+</ResponseField>

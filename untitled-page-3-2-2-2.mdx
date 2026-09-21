@@ -1,0 +1,57 @@
+---
+title: "Multiplication Generator"
+icon: "plus"
+---
+
+The Math44 Multiplication Generator lets you generate random Multiplication equations for your projects.
+
+It can be used for math activities, games, quizzes, testing, or anywhere else you need a random Multiplication problems.
+
+## Example Uses
+
+- Random math problems
+- Games
+- Quizzes
+- Classroom activities
+- Testing
+- Randomized exercises
+
+See the API reference for the available options and parameters.
+
+## How to Use:
+
+Send a `GET`Request to the URL Below.
+
+```json
+https://adrofi.avicenna.run/api/multiplication
+```
+
+### Reference
+
+<ResponseField name="success" type="true / false" default="true">
+  Status if API worked.
+</ResponseField>
+
+<ResponseField name="status" type="numbers" default="200">
+  The status of the API.
+</ResponseField>
+
+<ResponseField name="timestamp" type="time">
+  The time that the request was sent.
+</ResponseField>
+
+<ResponseField name="one" type="X × X" default="N/A">
+  Output 1.
+</ResponseField>
+
+<ResponseField name="two" type="X × X × X" default="N/A">
+  Output 2.
+</ResponseField>
+
+<ResponseField name="three" type="X(X x X)" default="N/A">
+  Output 3.
+</ResponseField>
+
+<ResponseField name="four" type="(X x X) x X" default="N/A">
+  Output 4.
+</ResponseField>
