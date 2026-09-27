@@ -62,7 +62,7 @@
           {
             "group": "API",
             "pages": [
-              "untitled-page-2",
+              "api/number-generator",
               "untitled-page-3",
               "untitled-page-3-2",
               "untitled-page-3-2-2",
