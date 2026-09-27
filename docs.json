@@ -63,10 +63,10 @@
             "group": "API",
             "pages": [
               "api/number-generator",
-              "untitled-page-3",
-              "untitled-page-3-2",
-              "untitled-page-3-2-2",
-              "untitled-page-3-2-2-2"
+              "api/fraction-generator",
+              "api/addition-generator",
+              "api/subtraction-generator",
+              "api/multiplication-generator"
             ]
           }
         ],
