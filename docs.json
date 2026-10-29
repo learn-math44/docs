@@ -110,5 +110,8 @@
       "website": "https://math44.org"
     }
   },
-  "description": "The officail documentation for Math44 and it's other websites."
+  "description": "The officail documentation for Math44 and it's other websites.",
+  "background": {
+    "decoration": "grid"
+  }
 }
