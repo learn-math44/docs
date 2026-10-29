@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "luma",
   "name": "Math44 Documentation",
   "colors": {
     "primary": "#5d3bff",
@@ -113,5 +113,8 @@
   "description": "The officail documentation for Math44 and it's other websites.",
   "background": {
     "decoration": "grid"
+  },
+  "icons": {
+    "library": "fontawesome"
   }
 }
